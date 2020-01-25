@@ -1,0 +1,27 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "http assignment",
+  "main": "./src/server.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start": "node ./src/server.js",
+      "pretest": "eslint ./src --fix",
+      "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvh9602/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Matt Hoffman",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mvh9602/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/mvh9602/Simple-HTTP-Assignment-Start#readme"
+}
